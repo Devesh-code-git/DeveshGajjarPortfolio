@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, rgb(27, 38, 59), rgb(13, 27, 42), rgb(27, 38, 59));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#back_of_nav_bar {
+    background-color: rgb(65, 90, 119);
+    position: fixed;
+    top: 0;
+    z-index: 900;
+
+    width: 100vw;
+    height: 10vh;
+}
+
+#nav_bar {
+    background-color: rgb(65, 90, 119);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 10vh;
+    width: 50vw;
+}
+
+.nav_contents {
+    border-style: solid;
+    border-color: rgb(119, 141, 169);
+    border-width: 2px;
+
+    color: white;
+    padding: 1em;
+
+    text-align: center;
+
+    box-shadow: 5px 5px 10px rgb(45, 70, 99)
+}
+
+.nav_contents:hover {
+    background-color: rgb(119, 141, 169);
+    cursor: pointer;
+}
+
+#image {
+    position: absolute;
+    top: 13vh;
+    left: 3vw;
+    width: 94vw;
+    height: 30vh;
+
+    background-image: url("/Education/featuredimage_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    box-shadow: 5px 5px 10px rgb(3, 14, 22);
+}
+
+#text {
+    position: absolute;
+    top: 46vh;
+    left: 3vw;
+    width: 94vw;
+    height: auto;
+
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+    grid-template-areas: 
+    "place info info"
+    "place info info";
+}
+
+#place {
+    grid-area: place;
+}
+
+#info {
+    grid-area: info;
+}
+
+.box {
+    background: linear-gradient(135deg, rgb(65, 90, 119), rgb(35, 60, 89));
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(3, 14, 22);
+
+    text-align: left;
+    padding: 1em;
+}
+
+#end {
+    position: fixed;
+    bottom:0;
+    width:100vw;
+    height: 5vh;
+    background-color: rgb(65, 90, 119);
+}
