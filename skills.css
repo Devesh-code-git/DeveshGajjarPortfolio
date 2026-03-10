@@ -119,6 +119,20 @@ html, body {
     grid-area: skills;
 }
 
+.inside_skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .inside_skills {
+        grid-template-columns: 1fr;
+    }
+}
+
 #others {
     grid-area: others;
 }
@@ -154,3 +168,4 @@ html, body {
     color: white;
 
 }
+
