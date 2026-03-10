@@ -114,6 +114,7 @@ html, body {
 @media (max-width: 768px) {
     #projects {
         top: 17vh;
+        left: 40vw;
         height: 100vh;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: 
@@ -128,7 +129,7 @@ html, body {
         position: absolute;
         left:0;
         top: 16vh;
-        height: 176vh;
+        height: 200vh;
 
         border-style: solid;
         border-color: transparent;
@@ -187,4 +188,5 @@ html, body {
     font-size: 35px;
 
 }
+
 
