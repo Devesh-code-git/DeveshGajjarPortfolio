@@ -156,15 +156,17 @@ html, body {
     padding: 1em;
 }
 
-#end {
-    position: fixed;
-    bottom:0;
-    width:100vw;
-    height: 5vh;
-    background-color: rgb(65, 90, 119);
-
-    text-align: center;
-    color: white;
+@media (min-width: 800px) {
+    #end {
+        position: fixed;
+        bottom:0;
+        width:100vw;
+        height: 5vh;
+        background-color: rgb(65, 90, 119);
+    
+        text-align: center;
+        color: white;
+    }
 }
 
 .fa-chess-knight {
@@ -179,6 +181,7 @@ html, body {
     font-size: 35px;
 
 }
+
 
 
 
