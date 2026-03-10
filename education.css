@@ -130,6 +130,14 @@ img {
 @media (max-width: 768px) {
     #text {
         top: 51vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "place place"
+        "info info"
+        "info info";
+
+        height: 63vh;
     }
 }
 
@@ -161,5 +169,6 @@ img {
     color: white;
 
 }
+
 
 
