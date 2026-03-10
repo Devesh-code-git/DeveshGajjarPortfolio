@@ -85,7 +85,7 @@ body {
     width: 94vw;
     height: 30vh;
 
-    background-image: url("/Education/featuredimage_1.jpg");
+    background-image: url("featuredimage_1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -160,4 +160,5 @@ img {
 
     text-align: center;
     color: white;
+
 }
