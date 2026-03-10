@@ -156,6 +156,10 @@ img {
     padding: 1em;
 }
 
+#end {
+    color: transparent;
+}
+
 @media (min-width: 800px) {
     #end {
         position: fixed;
@@ -168,6 +172,7 @@ img {
         color: white;
     }
 }
+
 
 
 
