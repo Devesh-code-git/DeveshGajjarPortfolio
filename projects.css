@@ -126,10 +126,8 @@ html, body {
     }
 
     #gap {
-        position: absolute;
-        left:0;
-        top: 16vh;
-        height: 200vh;
+        margin-top: 100vh;
+        height: 100vh;
 
         border-style: solid;
         border-color: transparent;
@@ -188,5 +186,6 @@ html, body {
     font-size: 35px;
 
 }
+
 
 
