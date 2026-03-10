@@ -44,7 +44,7 @@ html, body {
     #nav_bar {
         width: 50vw;
         grid-template-columns: 1fr 1fr;
-        gap: 1em;
+        gap: 0.5em;
         top: 5px;
     }
 
@@ -187,3 +187,4 @@ html, body {
     font-size: 35px;
 
 }
+
