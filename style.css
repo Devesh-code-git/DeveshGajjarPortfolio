@@ -152,18 +152,17 @@ html, body {
     cursor: pointer;
 }
 
-@media (min-width: 800px) {
-    #end {
-        position: fixed;
-        bottom:0;
-        width:100vw;
-        height: 5vh;
-        background-color: rgb(65, 90, 119);
+#end {
+    position: fixed;
+    bottom:0;
+    width:100vw;
+    height: 5vh;
+    background-color: rgb(65, 90, 119);
     
-        text-align: center;
-        color: white;
-    }
+    text-align: center;
+    color: white;
 }
+
 
 
 
