@@ -116,6 +116,7 @@ html, body {
         top: 17vh;
         left: 40vw;
         height: 100vh;
+        padding-bottom: 8vh;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: 
         "raycast raycast raycast"
@@ -123,14 +124,6 @@ html, body {
         "connect4 connect4 connect4"
         "website website website"
         "shapes shapes shapes";
-    }
-
-    #gap {
-        margin-top: 100vh;
-        height: 100vh;
-
-        border-style: solid;
-        border-color: transparent;
     }
 }
 
@@ -186,6 +179,7 @@ html, body {
     font-size: 35px;
 
 }
+
 
 
 
