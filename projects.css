@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     background: linear-gradient(135deg, rgb(27, 38, 59), rgb(13, 27, 42), rgb(27, 38, 59));
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -45,7 +45,7 @@ body {
         width: 50vw;
         grid-template-columns: 1fr 1fr;
         gap: 1em;
-        top: 1vh;
+        top: 5px;
     }
 
     #back_of_nav_bar {
@@ -185,4 +185,5 @@ body {
 
 .fa-circle {
     font-size: 35px;
+
 }
